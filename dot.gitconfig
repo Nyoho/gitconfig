@@ -4,6 +4,7 @@
 
 [core]
 	excludesfile = ~/.gitignore
+    autocrlf = false
 [color]
         ui = auto
 [alias]
