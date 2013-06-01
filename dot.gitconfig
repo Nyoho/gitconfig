@@ -9,6 +9,9 @@
 [alias]
         st = status
         sh = show
+        sb = show-branch
+        rema = rebase origin/master master
+        ci = commit
         cm = commit
         cmt = commit -v
         coma = commit -a
