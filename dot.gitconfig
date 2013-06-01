@@ -14,8 +14,8 @@
         ci = commit
         cm = commit
         cmt = commit -v
-        coma = commit -a
-        cma = commit -a
+        coma = commit -a -v
+        cma = commit -a -v
         co = checkout
         dc = diff --cached
         df = diff
