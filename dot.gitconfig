@@ -18,6 +18,7 @@
         coma = commit -a -v
         cma = commit -a -v
         co = checkout
+        cl = clone
         dc = diff --cached
         df = diff
         d = diff -C
