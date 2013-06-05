@@ -28,6 +28,7 @@
         lg = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d'
         l = log
         m = checkout master
+        ituja = log --patch -S
 
 [push]
 	default = upstream
