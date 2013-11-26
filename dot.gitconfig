@@ -29,7 +29,10 @@
         l = log
         m = checkout master
         ituja = log --patch -S
-
+[pager]
+        diff = diff-highlight | less
+        show = diff-highlight | less
+        log = diff-highlight | less
 [push]
 	default = upstream
 [difftool "sourcetree"]
