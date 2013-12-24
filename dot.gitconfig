@@ -29,6 +29,7 @@
         l = log
         m = checkout master
         ituja = log --patch -S
+        alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
 [pager]
         diff = diff-highlight | less
         show = diff-highlight | less
