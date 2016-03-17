@@ -26,8 +26,8 @@
         dsp = diff -C --stat -p
         dw = diff -C --color-words
         up = pull --rebase
-        lg = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d'
-        lo = log --graph --all --color --pretty='%x09%h %ad %cn%x09%s %Cred%d' --date=short
+        lg = log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'
+        lo = log --graph --all --color --pretty='%x09%h %ad %cn%x09%s %Cred%d%Creset' --date=short
         ls = ls-files
         l = log
         m = checkout master
