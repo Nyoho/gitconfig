@@ -34,9 +34,9 @@
         ituja = log --patch -S
         alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
 [pager]
-        diff = diff-highlight | less
-        show = diff-highlight | less
-        log = diff-highlight | less
+        diff = diff-highlight | nkf -w | less
+        show = diff-highlight | nkf -w | less
+        log = diff-highlight | less --raw-control-chars --no-init --quit-if-one-screen
 [push]
 	default = upstream
 [difftool "sourcetree"]
