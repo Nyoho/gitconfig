@@ -3,7 +3,6 @@
 	email = algebraicallyClosedField@gmail.com
 
 [core]
-	excludesfile = ~/.gitignore
     autocrlf = false
 [color]
         ui = auto
