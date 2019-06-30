@@ -34,10 +34,11 @@
         m = checkout master
         ituja = log --patch -S
         alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+        rem = remote -v
 [pager]
-        diff = diff-so-fancy | less
         show = diff-so-fancy | less
-        log = diff-highlight | less --raw-control-chars --no-init --quit-if-one-screen
+        # log = diff-highlight | less --raw-control-chars --no-init --quit-if-one-screen
+        su = submodule update
 [push]
 	default = upstream
 [difftool "sourcetree"]
