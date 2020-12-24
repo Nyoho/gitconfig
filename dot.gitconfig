@@ -33,6 +33,8 @@
         ls = ls-files
         l = log
         m = checkout master
+        pu = push
+        pl = pull
         ituja = log --patch -S
         alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
         rem = remote -v
