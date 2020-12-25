@@ -52,3 +52,8 @@
 	trustExitCode = true
 [diff]
 	compactionHeuristic = true
+
+[commit]
+	template = ~/.stCommitMsg
+[include]
+    path = .gitconfig.local
