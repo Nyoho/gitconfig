@@ -4,7 +4,7 @@
 
 [core]
     autocrlf = false
-	excludesfile = ~/.gitignore_global
+    pager = "pre=$(which diff-so-fancy); ${pre:-cat} | less --tabs=4 -RFX"
 [color]
         ui = auto
 [alias]
