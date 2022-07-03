@@ -17,6 +17,7 @@
         cmt = commit -v
         coma = commit -a -v
         cma = commit -a -v
+        oicm = commit --amend --no-edit
         co = checkout
         cl = clone
         dc = diff --cached
