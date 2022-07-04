@@ -34,7 +34,7 @@
         lo = log --color --graph --all --pretty=format:'%C(red)%h %ad%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=format:'%Y-%m-%d %H:%M'
         ls = ls-files
         l = log
-        m = checkout master
+        m = "!f() { remote_head=$(git symbolic-ref --quiet refs/remotes/origin/HEAD); remote_head=${remote_head#refs/remotes/origin/}; git checkout ${remote_head:-$(git rev-parse --symbolic --verify --quiet main || git rev-parse --symbolic --verify --quiet master)}; }; f"
         pu = push
         pl = pull
         ituja = log --patch -S
