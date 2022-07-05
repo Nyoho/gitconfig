@@ -84,4 +84,5 @@
 [delta]
     side-by-side = true
     navigate = true
-    hyperlinks = true
+    hyperlinks = false
+    syntax-theme = 1337
