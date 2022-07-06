@@ -86,3 +86,5 @@
     navigate = true
     hyperlinks = false
     syntax-theme = 1337
+[github]
+	user = Nyoho
