@@ -46,6 +46,7 @@
         su = submodule update
 [push]
 	default = upstream
+	autoSetupRemote = true
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
