@@ -1,12 +1,15 @@
-.gitconfig
+.gitconfig or .config/git/config
 ==========
 
-This is a repository for ~/.gitconfig file.
+This is a repository for `~/.config/git/config` file.
 
 How to install
 --------------
 
-Just `clone` it and do
+Just `clone` it into `~/.config/git`.
+
+
+If you like use `.gitconfig`, make a symbolic link by using
 
 ```
 ./make-symbolic-link.sh
