@@ -5,7 +5,6 @@
 [core]
     autocrlf = false
     pager = delta
-	excludesfile = /Users/nyoho/.gitignore_global
 [color]
         ui = auto
 [alias]
