@@ -90,3 +90,5 @@
     syntax-theme = 1337
 [github]
 	user = Nyoho
+[credential]
+	helper = store
